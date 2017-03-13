@@ -53,7 +53,7 @@ $ chmod +x ./pentmenu
 $ ./pentmenu
 ```
 
-Alternatively, use git clone, or download the latest release from https://github.com/alvarosamudio/pentmenu/releases, extract it and run the script.
+Alternatively, use git clone, or download the latest release from https://github.com/alvarosamudio/pentmenu/releases and Install the "pentmenu_version_all.deb" package
 
 
 ## Module detail
