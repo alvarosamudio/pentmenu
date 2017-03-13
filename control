@@ -4,5 +4,7 @@ Source: GinjaChris
 Homepage: https://github.com/GinjaChris/pentmenu
 Architecture: all
 Priority: optional
+Depends: bash, sudo, curl, netcat, hping3 | nping, openssl, stunnel, nmap, whois, nslookup | host
+Replaces: pentmenu
 Description: A bash script for recon and DOS attacks
  Designed to be a simple way to implement various network pentesting functions, including network attacks, using wherever possible readily available software commonly installed on most linux distributions without having to resort to multiple specialist tools.
