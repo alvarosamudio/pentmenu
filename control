@@ -1,5 +1,6 @@
 Package: pentmenu
 Maintainer: Alvaro Samudio <alvarosamudio1@gmail.com>
+Section: shells
 Source: GinjaChris
 Homepage: https://github.com/GinjaChris/pentmenu
 Architecture: all
