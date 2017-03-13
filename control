@@ -1,0 +1,8 @@
+Package: pentmenu
+Maintainer: Alvaro Samudio <alvarosamudio1@gmail.com>
+Source: GinjaChris
+Homepage: https://github.com/GinjaChris/pentmenu
+Architecture: all
+Priority: optional
+Description: A bash script for recon and DOS attacks
+ Designed to be a simple way to implement various network pentesting functions, including network attacks, using wherever possible readily available software commonly installed on most linux distributions without having to resort to multiple specialist tools.
