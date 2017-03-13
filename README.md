@@ -38,7 +38,7 @@ Tested on Debian and Arch.
 - Download the script:
 
 ```
-$ wget https://raw.githubusercontent.com/GinjaChris/pentmenu/master/pentmenu
+$ wget https://raw.githubusercontent.com/alvarosamudio/pentmenu/master/pentmenu
 ```
 
 - Make it executable:
@@ -53,7 +53,7 @@ $ chmod +x ./pentmenu
 $ ./pentmenu
 ```
 
-Alternatively, use git clone, or download the latest release from https://github.com/GinjaChris/pentmenu/releases, extract it and run the script.
+Alternatively, use git clone, or download the latest release from https://github.com/alvarosamudio/pentmenu/releases, extract it and run the script.
 
 
 ## Module detail
