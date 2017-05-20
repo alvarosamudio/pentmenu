@@ -1049,7 +1049,7 @@ echo "| YOU are responsible for your own actions!                               
 echo "\_____________________________________________________________________________|"
 echo "Script Location : $0"
 echo "Connection Info :-----------------------------------------------"
-echo "Gateway: $DEFAULT_ROUTE Interface: $IFACE\033 My LAN Ip: $MYIP"
+echo "Gateway: $DEFAULT_ROUTE Interface: $IFACE My LAN Ip: $MYIP"
 echo ""
 mainmenu
 ##END WELCOME MESSAGE##
