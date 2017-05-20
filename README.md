@@ -8,28 +8,19 @@ Designed to be a simple way to implement various network pentesting functions, i
 
 **Sudo is implemented where necesssary.**
 
-Tested on Debian and Arch.
+Tested on Debian, Deepin, Kali linux, Parrot and Arch.
 
 ## Requirements:
 
 * bash
-
 * sudo 
-
 * curl
-
 * netcat (must support '-k' option, openbsd variant recommended)
-
 * hping3 (or nping can be used as a substitute for flood attacks)
-
 * openssl
-
 * stunnel
-
 * nmap
-
 * whois (not essential but preferred)
-
 * nslookup (or 'host')
 
 ## How to use?
@@ -38,23 +29,8 @@ Tested on Debian and Arch.
 - Download the script:
 
 ```
-$ wget https://raw.githubusercontent.com/alvarosamudio/pentmenu/master/pentmenu
+https://github.com/alvarosamudio/pentmenu/releases
 ```
-
-- Make it executable:
-
-```
-$ chmod +x ./pentmenu
-```
-
-- Run it:
-
-```
-$ ./pentmenu
-```
-
-Alternatively, use git clone, or download the latest release from https://github.com/alvarosamudio/pentmenu/releases and Install the "pentmenu_version_all.deb" package
-
 
 ## Module detail
 
