@@ -1,5 +1,11 @@
 #!/bin/bash
 #set the prompt to show you are in pentmenu and not standard shell
+#some variables
+DEFAULT_ROUTE=$(ip route show default | awk '/default/ {print $3}')
+IFACE=$(ip route show | awk '(NR == 2) {print $3}')
+JAVA_VERSION=`java -version 2>&1 |awk 'NR==1{ gsub(/"/,""); print $3 }'`
+MYIP=$(ip route show | awk '(NR == 2) {print $9}')
+
 PS3="Pentmenu>"
 
 ##MAINMENU##
@@ -1035,12 +1041,13 @@ echo "|  ______||  __)   | |\ \| |   | |   | ||_|| ||  __)   | |\ \| || |   | |"
 echo "| |       | |      | | \   |   | |   | |   | || |      | | \   || |   | |"
 echo "| |       | |____/\| |  \  |   | |   | |   | || |____/\| |  \  || |___| |"
 echo "|/        (_______/|/    \_|   |_|   |/     \||_______/|/    \_||_______|"
-echo ""
+echo "			Script Location : \033[32m$0\033[m                     "
+echo "Connection Info :-----------------------------------------------"
+echo "	Gateway: \033[32m$DEFAULT_ROUTE\033[m Interface: \033[32m$IFACE\033[m My LAN Ip: \033[32m$MYIP\033[m"
 echo "Welcome to pentmenu!"
 echo "Please report all bugs, improvements and suggestions to https://github.com/GinjaChris/pentmenu/issues"
 echo "This software is only for responsible, authorised use."
 echo "YOU are responsible for your own actions!"
-echo "Please review the readme at https://raw.githubusercontent.com/GinjaChris/pentmenu/master/README.md before proceeding"
 echo ""
 mainmenu
 ##END WELCOME MESSAGE##
